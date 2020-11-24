@@ -1,0 +1,136 @@
+@media(min-width:320px) and (max-width:360px){
+    #contact{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        
+    }
+    .heading{
+        
+        margin-left:15px;
+        font-size:15px;
+        font-weight:bold;
+        color:#0080ff;
+    } 
+    .contact-form{
+        border-radius:15px;
+        font-size:20px;
+        padding-top:10px;
+        width:90%;
+        height:580px;
+        background: rgb(31, 30, 30);
+        padding-left:11px;
+        margin-left:10px;
+        
+    }
+    form textarea{
+        width:95%;
+        height:115px;
+        font-size:18px;
+        font-weight:bold;
+        border:2px solid#0080ff;
+        background:#000;
+        color: #fff;
+    }
+    .social a{
+        color:#0080ff;
+        font-size:4em;
+        margin-left:100px;
+        padding:10px;
+        display:flex;
+        flex-direction:column;
+        text-decoration: none;
+        
+    }
+}
+
+@media(min-width:361px) and (max-width:375px){
+    #contact{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        
+    }
+    .heading{
+        
+        margin-left:15px;
+        font-size:18px;
+        font-weight:bold;
+        color:#0080ff;
+    } 
+    .contact-form{
+        border-radius:15px;
+        font-size:25px;
+        padding-top:10px;
+        width:90%;
+        height:700px;
+        background: rgb(31, 30, 30);
+        padding-left:11px;
+        margin-left:10px;
+        
+    }
+    form textarea{
+        width:95%;
+        height:110px;
+        font-size:18px;
+        font-weight:bold;
+        border:2px solid#0080ff;
+        background:#000;
+        color: #fff;
+    }
+    .social a{
+        color:#0080ff;
+        font-size:5em;
+        margin-left:120px;
+        padding:10px;
+        display:flex;
+        flex-direction:column;
+        text-decoration: none;
+        
+    } 
+}
+@media(min-width:376px) and (max-width:430px){
+    #contact{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        
+    }
+    .heading{
+        
+        margin-left:15px;
+        font-size:18px;
+        font-weight:bold;
+        color:#0080ff;
+    } 
+    .contact-form{
+        border-radius:15px;
+        font-size:25px;
+        padding-top:10px;
+        width:90%;
+        height:700px;
+        background: rgb(31, 30, 30);
+        padding-left:11px;
+        margin-left:10px;
+        
+    }
+    form textarea{
+        width:95%;
+        height:110px;
+        font-size:18px;
+        font-weight:bold;
+        border:2px solid#0080ff;
+        background:#000;
+        color: #fff;
+    }
+    .social a{
+        color:#0080ff;
+        font-size:5em;
+        margin-left:140px;
+        padding:10px;
+        display:flex;
+        flex-direction:column;
+        text-decoration: none;
+        
+    }  
+}

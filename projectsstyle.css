@@ -1,0 +1,111 @@
+body{
+    background:#111;
+    color:#fff;
+}
+.nav-button{
+    color:#fff;
+    font-size:2em;
+    padding:10px;
+}
+.nav-button:hover{
+    color:#0074e7;
+}
+
+#projects{
+    display:flex;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+
+.heading{
+    text-align:center;
+    font-size: 27px;
+    font-weight: bold;
+    color:#0080ff;
+    text-decoration:underline;
+    text-decoration-color: #fba;
+    
+}
+
+.project-1{
+    box-shadow: 3px 3px 2.5px #0080ff;
+    border-radius:25px;
+    background: rgb(31, 30, 30);
+    padding:5px;
+    width:30%;
+    
+    
+}
+
+.project-1 h2 {
+    
+    color:#fba;
+    text-align:center;
+    font-size:40px;
+}
+
+.project-1 p{
+    text-align:start;
+    font-size:25px;
+    padding:5px;
+}
+
+.project-2{
+    box-shadow: 3px 3px 2.5px #fba;
+    border-radius:25px;
+    background: rgb(31, 30, 30);
+    padding:5px;
+    width:30%;
+}
+
+.project-2 h2 {
+    color:#0080ff;
+    text-align:center;
+    font-size:40px;
+}
+
+.project-2 p{
+    text-align:start;
+    font-size:25px;
+    padding:5px;
+}
+
+.project-3{
+    box-shadow: 3px 3px 2.5px #0080ff;
+    border-radius:25px;
+    background: rgb(31, 30, 30);
+    padding:5px;
+    width:30%; 
+}
+
+.project-3 h2 {
+    color:#fba;
+    text-align:center;
+    font-size:45px;
+}
+
+.project-3 p{
+    text-align:start;
+    font-size:27px;
+    padding:5px;
+}
+.button{
+    background-color: #fba;
+    color:#000000;
+    align-items:center;
+    width:150px;
+    height:28px;
+    margin-left:45%;
+    margin-top:20px;
+    justify-content:center;
+    font-size:18px;
+    text-align: center;
+}
+.button a {
+    color:#000;
+    text-decoration:none;
+}
+
+.button:hover{
+    background:#ffa791;
+}
