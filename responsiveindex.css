@@ -28,7 +28,7 @@
     img{
         margin-top:20px;
         border-radius:50%;
-        height:175px;
+        height:185px;
         margin-left: 95px;
     }
     hr{
@@ -64,7 +64,7 @@
         font-size:45px;
         font-family:'Noto Sans JP', sans-serif;
         display:inline;
-        padding-left: 45px;
+        padding-left: 50px;
     }
     .first{
         margin-top:30px;
@@ -86,7 +86,7 @@
     img{
         margin-top:20px;
         border-radius:50%;
-        height:175px;
+        height:190px;
         margin-left: 100px;
     }
     hr{
@@ -117,11 +117,11 @@
     h1{
         text-align:center;
         color:#0080ff;
-        margin-top:30px;
+        margin-top:50px;
         font-size:50px;
         font-family:'Noto Sans JP', sans-serif;
         display:inline;
-        padding-left: 48px;
+        padding-left: 52px;
     }
     .first{
         margin-top:30px;
@@ -143,7 +143,7 @@
     img{
         margin-top:20px;
         border-radius:50%;
-        height:195px;
+        height:205px;
         margin-left: 125px;
     }
     hr{
