@@ -12,6 +12,13 @@ h1{
     font-family:'Noto Sans JP', sans-serif;
     margin-bottom:40px;
     margin-top:30px;
+    animation-name: txt;
+    animation-duration: 3s;
+}
+
+@keyframes txt {
+    0% {top: -100px}
+    100% {top:0px}
 }
 .first{
     max-width:1100px;
@@ -44,7 +51,6 @@ hr{
     text-align:center;
     font-size:22px;
     text-decoration:none;
-    color:#ea0f1e;
     margin-top:20px;
     font-weight:bold;
 }
