@@ -1,4 +1,4 @@
-@media(min-width:320px) and (max-width:360px){
+@media(min-width:321px) and (max-width:360px){
     #contact{
         display:flex;
         flex-direction:column;
@@ -8,10 +8,13 @@
     .heading{
         
         margin-left:15px;
-        font-size:15px;
+        font-size:16px;
         font-weight:bold;
         color:#0080ff;
     } 
+    .contact-form h1{
+        font-size: 25px;
+    }
     .contact-form{
         border-radius:15px;
         font-size:20px;
@@ -64,11 +67,14 @@
         font-size:25px;
         padding-top:10px;
         width:90%;
-        height:700px;
+        height:600px;
         background: rgb(31, 30, 30);
         padding-left:11px;
         margin-left:10px;
         
+    }
+    .contact-form h1{
+        font-size: 30px;
     }
     form textarea{
         width:95%;
@@ -98,7 +104,6 @@
         
     }
     .heading{
-        
         margin-left:15px;
         font-size:18px;
         font-weight:bold;
@@ -109,11 +114,14 @@
         font-size:25px;
         padding-top:10px;
         width:90%;
-        height:700px;
+        height:600px;
         background: rgb(31, 30, 30);
         padding-left:11px;
         margin-left:10px;
         
+    }
+    .contact-form h1{
+        font-size: 30px;
     }
     form textarea{
         width:95%;
@@ -134,4 +142,52 @@
         text-decoration: none;
         
     }  
+}
+@media(width:320px) {
+    #contact{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        
+    }
+    .heading{
+     margin-left:15px;
+        font-size:15px;
+        font-weight:bold;
+        color:#0080ff;
+    } 
+    .contact-form h1{
+        font-size: 25px;
+    }
+    .contact-form{
+        border-radius:15px;
+        font-size:20px;
+        padding-top:10px;
+        width:90%;
+        height:500px;
+        background: rgb(31, 30, 30);
+        padding-left:11px;
+        margin-left:10px;
+        
+    }
+    form textarea{
+        width:95%;
+        height:115px;
+        font-size:18px;
+        font-weight:bold;
+        border:2px solid#0080ff;
+        background:#000;
+        color: #fff;
+    }
+    .social a{
+        color:#0080ff;
+        font-size:4em;
+        margin-left:100px;
+        padding:15px;
+        padding-left:25px;
+        display:flex;
+        flex-direction:column;
+        text-decoration: none;
+        
+    }
 }
